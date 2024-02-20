@@ -2,6 +2,7 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
 
@@ -12,5 +13,6 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ComboBox>
+      <TextField fx:id="txtSelectedLanguge" layoutX="66.0" layoutY="337.0" prefHeight="37.0" prefWidth="566.0" promptText="SelectedLanguge" />
    </children>
 </AnchorPane>
