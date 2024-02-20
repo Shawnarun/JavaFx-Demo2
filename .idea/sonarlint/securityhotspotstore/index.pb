@@ -28,3 +28,5 @@ G.idea/sonarlint/issuestore/1/7/1718e0b0715df84160ff5cb7357465062b5e78f6,b\8\b8
 Q.idea/sonarlint/securityhotspotstore/1/7/1718e0b0715df84160ff5cb7357465062b5e78f6,0\a\0a7f2db0d5907a554b41e84fe916c2d6b18d2601
 K
 src/MainFormController.java,7\7\7725cb156b831ce9623a23c75bc06069630a3ada
+A
+src/download.jfif,9\9\998d954febf1382652be1fc0964fff642dc761f7

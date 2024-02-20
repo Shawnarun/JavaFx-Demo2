@@ -1,38 +1,22 @@
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.TextField;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import javafx.collections.ObservableList;
+import javafx.scene.chart.PieChart;
+
 
 public class MainFormController{
-    public ComboBox<String> cmbLanguages;
-    public TextField txtSelectedLanguge;
 
-//    ArrayList<String> myLanguages = new ArrayList<>(
-//            Arrays.asList("Java","PHP","Kotlin","Ruby")
-//    );
+
+    public PieChart chart;
 
     public void initialize() {
-        cmbLanguages.getItems().addAll("Java","PHP","Kotlin","Ruby");
-
-        cmbLanguages.getSelectionModel()
-                .selectedItemProperty()
-                .addListener((observable,oldValue,newValue) ->
-                        {
-                            txtSelectedLanguge.setText(newValue);
-                        });
-
-//        ObservableList<String> obList = FXCollections.observableList(myLanguages);
-//        cmbLanguages.setItems(obList);
-
-//        for (String name: myLanguages) {
-//            cmbLanguages.getItems().add(name);
-//        }
-
-//        cmbLanguages.getItems().add("Java");
-
+        ObservableList<PieChart.Data> data = FXCollections.observableArrayList();
+        data.addAll(
+                new PieChart.Data("Java",50),
+                new PieChart.Data("PHP",30),
+                new PieChart.Data("C#",20)
+        );
+        chart.setData(data);
     }
 
 
