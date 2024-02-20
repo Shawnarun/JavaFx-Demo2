@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.layout.AnchorPane?>
+
 
 <AnchorPane prefHeight="533.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
    <children>
-      <TextField fx:id="txtEmail" layoutX="92.0" layoutY="49.0" prefHeight="45.0" prefWidth="616.0" promptText="Enter your email" />
-      <TextField fx:id="txtResult" layoutX="92.0" layoutY="158.0" prefHeight="45.0" prefWidth="616.0" promptText="Your Email" />
-      <Separator layoutX="98.0" layoutY="123.0" prefHeight="0.0" prefWidth="604.0" />
+      <ComboBox fx:id="cmbLanguages" layoutX="67.0" layoutY="97.0" prefHeight="48.0" prefWidth="559.0" promptText="Languages">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ComboBox>
    </children>
 </AnchorPane>
