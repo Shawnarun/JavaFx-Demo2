@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="581.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Table.MainFormController">
+   <children>
+      <Label layoutX="31.0" layoutY="30.0" text="Customer Table">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Separator layoutX="14.0" layoutY="81.0" prefHeight="0.0" prefWidth="758.0" />
+      <TableView fx:id="tblCustomer" layoutX="28.0" layoutY="99.0" prefHeight="338.0" prefWidth="738.0">
+        <columns>
+          <TableColumn fx:id="colName" prefWidth="121.0" text="Name" />
+          <TableColumn fx:id="colNic" prefWidth="108.0" text="NIC" />
+            <TableColumn fx:id="colAddress" prefWidth="108.0" text="Address" />
+            <TableColumn fx:id="colSalary" prefWidth="132.0" text="Salary" />
+            <TableColumn fx:id="colDelete" prefWidth="132.0" text="Delete" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
