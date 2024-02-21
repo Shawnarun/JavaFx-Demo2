@@ -4,6 +4,7 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -31,11 +32,12 @@
             <Font size="24.0" />
          </font>
       </CheckBox>
-      <Separator layoutX="347.0" layoutY="48.0" orientation="VERTICAL" prefHeight="499.0" prefWidth="22.0" />
+      <Separator layoutX="347.0" layoutY="48.0" orientation="VERTICAL" prefHeight="338.0" prefWidth="22.0" />
       <Button layoutX="482.0" layoutY="226.0" mnemonicParsing="false" onAction="#printDataCheckBoxOnAction" text="Print Data">
          <font>
             <Font size="29.0" />
          </font>
       </Button>
+      <TextField fx:id="txtData" layoutX="157.0" layoutY="406.0" onKeyReleased="#typeOnAction" prefHeight="35.0" prefWidth="445.0" promptText="Enter Keybord Key" />
    </children>
 </AnchorPane>
