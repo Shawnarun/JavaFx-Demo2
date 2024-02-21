@@ -14,6 +14,15 @@ public class MainFormController {
     public TextField txtOuput;
     public ListView<String> lsLanguages;
 
+
+    public void initialize(){
+        lsLanguages.getSelectionModel()
+                .selectedItemProperty()
+                .addListener(((observable, oldValue, newValue) -> {
+                    txtOuput.setText(newValue);
+                }));
+    }
+
     ObservableList<String> obList = FXCollections.observableArrayList();
     public void inputOnAction(ActionEvent actionEvent) {
         String lang = txtInput.getText();
