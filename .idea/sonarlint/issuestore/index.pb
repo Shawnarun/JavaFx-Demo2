@@ -38,3 +38,7 @@ W
 'src/RadioButton/MainFormController.java,a\f\af67f6a342accc8ebb5a4e843b70b5be004c12c4
 K
 src/AxisChart/MainForm.fxml,3\d\3d112b90d6541b9356aefb5d144590fa07717c1c
+T
+$src/CheckBox/MainFormController.java,c\6\c606e5e5aff76a62d6be4329899448fa503d1dd7
+J
+src/CheckBox/MainForm.fxml,c\3\c3b56f98a0534f10fcdfffcb67178cc40079cc7b
