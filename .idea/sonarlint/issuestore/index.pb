@@ -1,16 +1,10 @@
 
 =
 src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
-A
-src/Mainform.fxml,1\7\1718e0b0715df84160ff5cb7357465062b5e78f6
-K
-src/MainformController.java,a\3\a3b722e6ee63b59e237751808db53daa3261191d
 G
 src/AppInitializer.java,5\8\580cc932433633b711bc392ae543e0f12b1bae87
 A
 FirstProject2.iml,e\4\e410ec5165595311ab068881ac7acb5a3b737531
-Å
-Q.idea/sonarlint/securityhotspotstore/a/3/a3b722e6ee63b59e237751808db53daa3261191d,8\a\8a352b5742afef9a4552bb50cce70970578afa8e
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -22,12 +16,6 @@ Q.idea/sonarlint/securityhotspotstore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b3681
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-w
-G.idea/sonarlint/issuestore/1/7/1718e0b0715df84160ff5cb7357465062b5e78f6,b\8\b84330e64d0f455b82cd9544673d95db345a625a
-Å
-Q.idea/sonarlint/securityhotspotstore/1/7/1718e0b0715df84160ff5cb7357465062b5e78f6,0\a\0a7f2db0d5907a554b41e84fe916c2d6b18d2601
-K
-src/MainFormController.java,7\7\7725cb156b831ce9623a23c75bc06069630a3ada
 K
 src/AxisChart/Mainform.fxml,f\3\f3125db3174fe32981fa7da2a59eed9d71c76df6
 U
@@ -56,3 +44,23 @@ G
 src/Table/Database.java,3\7\37366c0f20882a140fabd2430f7c17ca60105537
 I
 src/Table/CustomerTM.java,5\7\57471211a94e953530b6a89984b93b19d3e96972
+O
+src/Navigation01/WindowOne.java,3\4\344b1620e885102e4ab6df1b7c7d3d0ef6fca4c2
+O
+src/Navigation01/WindowOne.fxml,e\0\e02ee2c552d4b02d18d228ffa0c763965fe40bb8
+Y
+)src/Navigation01/WindowOneController.java,a\f\afae54ea5e1a288458bc1580b788788865260c9c
+O
+src/Navigation01/WindowTwo.fxml,5\f\5fcc17baa59d1280559af34b72a0fcb31011dc7c
+Y
+)src/Navigation01/WindowTwoController.java,8\f\8fbb25560b8500d973332f3fe96aac194fe853dc
+D
+src/Navigation2.java,0\d\0dc60b7e9b6fd301d8577bfdfe8a7bf987d7b8f9
+N
+src/Navigation2/WindowOne.fxml,b\c\bce1c283691a6762a3822eae8b3a182fb2c5e92b
+N
+src/Navigation2/WindowTwo.fxml,1\5\151b990071e09bf98835fab8487c94fd676ff8a6
+X
+(src/Navigation2/WindowOneController.java,5\7\575aea8be24af0c1f03e1059afa792d9d8d21ae1
+X
+(src/Navigation2/WindowTwoController.java,7\9\79fef1f0ffbf636eb1f6d1381c1a672a14d807c3
